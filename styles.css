@@ -25,6 +25,7 @@ p {
     text-align: center;
     font-size: 50px;
     color: black;}
+
 .homeblock {display: block;}
 .hbox {text-align: center;}
 
@@ -42,6 +43,7 @@ p {
 
     .title-box {
         font-size: 30px;
-        margin: 20px;
+        margin: 0 auto;
+        text-align: center;
     }
 }
