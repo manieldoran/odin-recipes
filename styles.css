@@ -19,10 +19,29 @@ p {
     text-align: center;
 }
 .title-box {
-    margin: 30px;
-    padding: 0px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 15px;
     text-align: center;
     font-size: 50px;
     color: black;}
 .homeblock {display: block;}
 .hbox {text-align: center;}
+
+@media (max-width: 768px) {
+    div {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .homeblock {
+        width: 100%;
+        height: auto;
+    }
+
+    .title-box {
+        font-size: 30px;
+        margin: 20px;
+    }
+}
